@@ -1,5 +1,3 @@
-Sure! Here’s a professional, clean README.md for your React Weather App project based on the code you shared. I’ve included sections like project description, features, installation, usage, and screenshots guidance. You can adjust the images later if you want.
-
 ````markdown
 # 🌤 React Weather App
 
@@ -78,21 +76,12 @@ The app should now be running at [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## 🖼 Screenshots
-
-_Add screenshots of your app here, for example:_
-
-- **Search Page:** Shows city input and suggestions.
-- **Weather Details Page:** Displays temperature, weather description, and all weather stats.
-
----
-
 ## ⚙️ API Reference
 
 - **OpenWeatherMap Geocoding API:** For city suggestions
   `http://api.openweathermap.org/geo/1.0/direct?q={city name}&limit=5&appid={API_KEY}`
 - **OpenWeatherMap Weather API:** For current weather
-  `http://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API_KEY}&units=metric`
+  `http://api.openweathermap.org/data/2.5/weather?lat=${s.lat}&lon=${s.lon}&appid=${API_KEY}&units=metric`
 
 ---
 
